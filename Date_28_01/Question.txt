@@ -1,0 +1,34 @@
+1->
+you are given a string as you must convert it into a integer following some strict rules
+->ignore leading spaces
+->check signs +/-
+->read digits until a non digit is found
+-> if number goes out of the integer range you have to clamp it
+->if no digits just return zero
+ex- hello123
+output-0
+
+ex-12@hello123
+output-12
+
+ex-12@1244
+output-12
+
+2->
+there is a camera on a toll gate that keeps track of the cars passing every minute find the maximum cars passed in k consecutive minutes
+input-you are given with an array and k
+output- max no of cars passed in k consecutive minute
+ex-
+[3,5,13,8,12,5,18,2], k=3
+
+
+3->
+a mall record customer entry every hour you are given an array where each element represents customer enrtering in that hour
+find the maximum customer in k hours
+input=[2,1,5,1,3,2]; k=3
+output=9
+
+4->
+a finance app records daily profit and check if there exist a continous period whose sum equals target s
+input=[1,4,20,3,10,5]; s=33
+output=20,3,10
