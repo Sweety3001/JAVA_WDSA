@@ -1,0 +1,10 @@
+// wap to count total number of words ina string or a message input by user
+
+//wap to find first and last non repeating character in a string
+
+//wap to take input of 2 string s1 and s2 and check whether s2 is substring of s1 or not
+
+//there are two encrypted strings that are valid only if characters follow the same pattern
+//ex:- s1="egg", s2="add" -> valid pattern
+
+//

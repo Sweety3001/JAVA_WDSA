@@ -1,0 +1,5 @@
+class Hello{
+public static void main(Strings[] args){
+if(System.out.printf("Sweety")!=null){}	
+}
+}
