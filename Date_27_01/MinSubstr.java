@@ -1,51 +1,37 @@
-import java.util.*;
 
 public class MinSubstr {
     public static void main(String[] args) {
-        String s = "aabbabaadcbbcab";
+        String s = "abbabadcbba";
         String p = "abc";
+        
+        //I
         int n = s.length();
         int m = p.length();
-
-        HashMap<Character, Integer> freq = new HashMap<>();
-
-        for (char c : p.toCharArray()) {
-            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        //II
+        int[] freq=new int[128];
+        for(int i=0;i<m;i++){
+            freq[p.charAt(i)]++;
         }
-
-        int start = 0;
-        HashMap<Character, Integer> freq1 = new HashMap<>(freq);
-        int i = 0;
-        while ( i < n - m ) {
-            if (freq1.isEmpty()) {
-                HashMap<Character, Integer> freq2 = new HashMap<>(freq);
-                for (int j = i - 1; j >= start; j--) {
-                    char c = s.charAt(j);
-                    if (freq2.containsKey(c)) {
-                        int value = freq2.get(c);
-                        value--;
-                        if (value == 0) {
-                            freq2.remove(c);
-                        }
-                    }
-                    if(freq2.isEmpty()){
-                        System.out.println(j+ " "+ (i-1));
-                        start = j+1;
-                        freq1 = new HashMap<>(freq);
-                        break;
-                    }
-                }
-                i=start-1;
+        //variable size window
+        int count=m,l=0,min=Integer.MAX_VALUE,start=0;
+        for(int r=0;r<=n-1;r++){
+            if((freq[s.charAt(r)]--)>0){
+                count--;
             }
-            char c = s.charAt(i);
-            if (freq1.containsKey(c)) {
-                int value = freq1.get(c);
-                value--;
-                if (value == 0) {
-                    freq1.remove(c);
+            while(count==0){
+                if ((r-l+1)<min) {
+                    min=r-l+1;
+                    start=l;
+                }
+                if((++freq[s.charAt(l++)])>0){
+                    count++;
                 }
             }
-            i++;
         }
-    }
+        if(min==Integer.MAX_VALUE){
+            System.out.println("No valid substring");
+        }else{
+            System.out.println("MinimumWindow: "+s.substring(start,start+min)+" Index range from: "+start+ " to: "+(start+min));
+        }
+}
 }
