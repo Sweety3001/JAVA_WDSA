@@ -32,3 +32,27 @@ output=9
 a finance app records daily profit and check if there exist a continous period whose sum equals target s
 input=[1,4,20,3,10,5]; s=33
 output=20,3,10
+
+5->
+a factory tracks energy usage per hour find the minimun sum of any k continous hour
+
+6->
+you have power rating find the smallest subarray whose sum is greater than equal to target 
+input=[2,3,1,2,4,3]; target=7
+output=2(length of subarray)
+
+7->
+netwotk latency locks are given find the longest subarray with atmost 2 distinct value
+input=[1,2,1,2,3]; 
+ouput=4(length of subarray)
+
+8->
+find the number of subarray whose sum is exactly k
+input=[1,1,1] k=2
+output=2
+
+9->given a sorted array check if two number sum to x
+input=[1,2,4,6,10] x=8
+output=true
+
+10->

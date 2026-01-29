@@ -1,0 +1,12 @@
+1->
+//remove duplicate elements from sorted array
+// input=[1,1,2,2,3]
+// output=[1,2,3]
+
+2->
+given a input array in which we have mix of positive and negative value write an algorithm to sort it's squared array
+input=[-4,-1,0,3,10]
+output=[0,1,9,16,100]
+
+3->
+leetcode 11
