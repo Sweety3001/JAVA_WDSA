@@ -1,0 +1,67 @@
+ARRAYS (Basics)
+LC 26 – Remove Duplicates from Sorted Array
+LC 88 – Merge Sorted Array
+LC 189 – Rotate Array
+LC 283 – Move Zeroes
+LC 268 – Missing Number
+LC 217 – Contains Duplicate
+LC 136 – Single Number
+LC 912 – Sort an Array
+LC 453
+
+🔢 TWO POINTERS
+LC 11 – Container With Most Water
+LC 167 – Two Sum II (Sorted Array)
+LC 977 – Squares of a Sorted Array
+
+🪟 SLIDING WINDOW (Most Important ⭐)
+Fixed Window
+LC 643 – Maximum Average Subarray I
+
+Variable Window
+LC 209 – Minimum Size Subarray Sum
+LC 3 – Longest Substring Without Repeating Characters
+LC 424 – Longest Repeating Character Replacement
+LC 904 – Fruit Into Baskets
+LC 76 – Minimum Window Substring
+
+🧮 PREFIX SUM / HASHMAP
+LC 560 – Subarray Sum Equals K
+LC 53 – Maximum Subarray (Kadane’s Algorithm)
+
+📈 GREEDY
+LC 121 – Best Time to Buy and Sell Stock
+LC 169 – Majority Element
+
+🔤 STRING PROBLEMS
+LC 8 – String to Integer (atoi)
+LC 28 – Find the Index of First Occurrence in String
+LC 434 – Number of Segments in a String
+LC 387 – First Unique Character in a String
+LC 242 – Valid Anagram
+
+
+
+🔁 STRING PATTERN / MAPPING
+LC 290 – Word Pattern
+LC 205 – Isomorphic Strings
+
+🧠 CUSTOM / NON-LEETCODE (Interview Logic)
+Remove lowest element and its adjacent repeatedly (Greedy logic)
+Java printf() trick question
+Counting words manually
+College-level pattern & billing programs
+
+
+lc525
+lc303
+lc307
+lc560
+lc525
+lc974
+lc325
+lc234
+lc148
+lc61
+lc2
+lc445

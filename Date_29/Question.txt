@@ -10,3 +10,14 @@ output=[0,1,9,16,100]
 
 3->
 leetcode 11
+
+4->
+wap given an array of n integer each integer represent resource consumption for a task
+follow operation until we reach empty array
+select lowest value from array and remove it and it's adjacent value(adjacent value is not calculated as consumption)
+implement a function that calculates total consumption of the task
+ex-17,2,10,5,12,6,21
+with 2 -> 2 ,17, 10 will be removed (both side task will be removed if possible)
+next smallest->5-> 5 and 12 will be removed
+next smallest->6-> 6 and 21 will be removed
+and output will be = 2+5+6=13

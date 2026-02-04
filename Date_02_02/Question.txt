@@ -1,0 +1,12 @@
+1->find the longest Subarry length whose sum is zero
+
+2->Puzzle
+There are 8 batteries but only 4 of them work , you have to use them for a flash light which needs only two working batteries. to gurantee that the flashlight is turned on . what is the minimum number of battery pairs you need to test .
+
+3->check if linkedlist is palindrome
+
+
+4->sort linkedlist using merge sort
+5-check palindrome in linked linkedlist
+6-rotate linkedlist by k
+7-sum of two linked linkedlist
