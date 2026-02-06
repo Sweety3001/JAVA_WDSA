@@ -1,0 +1,19 @@
+stack
+push
+pop
+peek
+isEmpty()
+len()
+findMiddle, min,max,swap
+
+
+find next greater element of each element in a array
+input=[4,5,2,10]
+output=[5,10,10,-1]
+
+implement a queue using 2 stack
+
+
+evaluate postfix expression using stack 24*3+5/
+
+remove adjacent duplicates

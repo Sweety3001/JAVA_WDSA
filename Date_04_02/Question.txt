@@ -1,0 +1,11 @@
+reverse entire doubly linkedlist
+
+find pairs of a given sum in a sorted doubly linkedlist
+[10,20,30,40,50],target=50
+
+delete all occurence of a key in a given doubly linkedlist
+
+
+reverse k no. of node and merge them singly linkedlist
+10->20->30->40->50->60->70->null
+20->10->40->30->60->50->70->null

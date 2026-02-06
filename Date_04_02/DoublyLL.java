@@ -159,7 +159,63 @@ public class DoublyLL {
     return head;
   }
 // https://meet.google.com/xxu-ozjp-yuu?authuser=0
+
+  static Node merge(Node l1,Node l2){
+    Node temp1=l1;
+    Node temp2=l2;
+    Node l3=new Node(0);
+    Node temp3=l3;
+    while(temp1!=null && temp2!=null){
+      if(temp1.data<temp2.data){
+        temp3.next=new Node(temp1.data);
+        temp3.next.prev=temp3;
+        temp3=temp3.next;
+        temp1=temp1.next;
+      }else{
+        temp3.next=new Node(temp2.data);
+        temp3.next.prev=temp3;
+        temp3=temp3.next;
+        temp2=temp2.next;
+      }
+    }
+    while(temp1!=null){
+      temp3.next=temp1;
+      temp1.prev=temp3;
+    }
+    while(temp2!=null){
+      temp3.next=temp2;
+      temp2.prev=temp3;
+    }
+    return l3.next;
+  }
+  static Node reverse(Node head){
+    if(head==null) return null;
+    Node curr=head;
+    Node prev=null;
+    Node next=null;
+    while(curr!=null){
+      next=curr.next;
+      prev=curr.prev;
+      curr.next=prev;
+      curr.prev=next;
+      curr=next;
+    }
+    return prev.prev;
+  }
+  static void traverse(Node head) {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
   public static void main(String[] args) {
-    
+    Node head=addElementTail(null,10);
+    head=addElementTail(head, 20);
+    head=addElementTail(head, 30);
+    head=addElementTail(head, 40);
+    head=addElementTail(head, 50);
+    head=addElementTail(head, 60);
   }
 }
