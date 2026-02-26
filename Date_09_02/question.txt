@@ -1,0 +1,9 @@
+implement stack using simple queue
+
+the queue represents the number of ticket
+arr=[2,3,2] k=2
+lc2073
+
+
+list of cpu task represented by capital letters each task take 1 unit of time between 2 same task there must be n units of cooling time. during cooling cpu can execute other task or stay idle. we have to return minimun time
+task=[A,A,A,B,B,B] N=2

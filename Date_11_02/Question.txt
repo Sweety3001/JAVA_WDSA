@@ -1,0 +1,2 @@
+you are given books in a row each book has some pages you must distribute amongst some students ,each student gets continuous books ,
+// every student must get at least one book, you have to minimize the max pages assigned to any student {12,34,67,90} m=2 :113

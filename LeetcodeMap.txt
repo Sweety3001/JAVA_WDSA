@@ -14,7 +14,7 @@ LC 11 – Container With Most Water
 LC 167 – Two Sum II (Sorted Array)
 LC 977 – Squares of a Sorted Array
 
-🪟 SLIDING WINDOW (Most Important ⭐)
+🪟 SLIDING WINDOW (Most Important)
 Fixed Window
 LC 643 – Maximum Average Subarray I
 
@@ -39,7 +39,7 @@ LC 28 – Find the Index of First Occurrence in String
 LC 434 – Number of Segments in a String
 LC 387 – First Unique Character in a String
 LC 242 – Valid Anagram
-
+lc 443-string compression
 
 
 🔁 STRING PATTERN / MAPPING
@@ -65,3 +65,6 @@ lc148
 lc61
 lc2
 lc445
+lc2073
+lc621
+146. LRU Cache

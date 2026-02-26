@@ -1,0 +1,6 @@
+BINARY SEARCH TREE
+-easy operations
+-fast searching
+-left children<= Node <= right children
+-logical order
+-always in sorted order

@@ -1,0 +1,20 @@
+find the first occurence of an element in an sorted Array
+arr=[1,1,1,2,2,3,3,3]
+target=2
+output=3
+
+you are given with a rotated sorted Array. given a target find position in present arr
+
+you are given with a matrix ,each row is sorted. first element of the next row is greater than last element of the previous row
+1 3 5 7
+10 11 16 20
+23 30 34 60
+
+
+
+4. You are given an array of size n+1 . numbers are from 1 to n only one number repeates. you cannot sort, modify and use any extra spaces there;
+lc287
+
+
+bubble sort
+selection sort
