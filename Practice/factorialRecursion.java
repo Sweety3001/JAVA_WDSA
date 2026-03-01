@@ -7,5 +7,6 @@ public class factorialRecursion{
     int n=5;
     int res=fact(n);
     System.out.println(res);
+    //Time complexity - O(n)
   }
 }
